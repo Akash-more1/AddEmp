@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <h1>New Employees</h1>
+
+    <div id="details">
+
+       <div class="data" >
+        <h3>Enter Name</h3>
+        <input id="name" type="text">
+       </div>
+
+       <div class="data"  >
+        <h3>Enter Profession</h3>
+        <input id="profession" type="text">
+       </div>
+
+       <div class="data" >
+        <h3>Enter Age</h3>
+        <input id="age" type="text">
+       </div>
+
+    </div>
+
+    <div>
+        <button type="submit" id="add"> Add User</button>
+    </div>
+
+    <div id="error">
+
+        <div id="er1">Error : Please Make sure All the fields are filled before adding in an employee !</div>
+
+        <div id="er2">Success : Employee Added!</div>
+    </div>
+
+    <h2 id="added"> Added Employees</h2>
+
+    <h3 id="oep">You have 0 Employees.</h3>
+
+    <div id="emp"></div>
+   </div>
+    
+
+    <script src="./scrip.js"></script>
+</body>
+</html>
